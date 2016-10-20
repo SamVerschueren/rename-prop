@@ -1,0 +1,42 @@
+{
+  "name": "rename-prop",
+  "version": "0.0.0",
+  "description": "Rename a property from an object",
+  "license": "MIT",
+  "repository": "SamVerschueren/rename-prop",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "obj",
+    "object",
+    "prop",
+    "property",
+    "dot",
+    "path",
+    "rename",
+    "notation",
+    "dotty"
+  ],
+  "dependencies": {
+    "dot-prop": "^4.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
